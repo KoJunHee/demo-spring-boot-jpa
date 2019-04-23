@@ -1,5 +1,3 @@
-# demo-spring-boot-jpa
-
 - stack
   - spring-boot-starter-data-jpa
   - spring-boot-devtools
