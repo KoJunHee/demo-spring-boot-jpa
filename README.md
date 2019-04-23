@@ -7,7 +7,7 @@
   - 연관관계 (참조 / 외래키)
   - 비교 (동일성, 동등성 / 기본키)
 
-### JDBC 를 직접 사용
+## JDBC 를 직접 사용
 
 SQL에 의존적인 개발
 
@@ -22,7 +22,7 @@ try(Connection connection = DriverManager.getConnection(url, username, password)
 }
 ```
 
-### JPA (Java Persistence API)
+## JPA (Java Persistence API)
 
 - Java 진영의 ORM 기술 표준
 
@@ -34,7 +34,7 @@ try(Connection connection = DriverManager.getConnection(url, username, password)
 
   ![](./img/1.png)
 
-### Persistence Context
+## Persistence Context
 
 Entity Manager 로 엔티티 를 저장하거나 조회하면, Persistence Context 에 엔티티를 보관하고 관리
 
@@ -52,14 +52,14 @@ Entity Manager 로 엔티티 를 저장하거나 조회하면, Persistence Conte
 - 변경 감지
   - flush 시점에 스냅샷(영속성 컨텍스트에 보관할 때 최초 상태) 과 엔티티 비교해서 변경된 엔티티를 찾음
 
-### Entity 생명주기
+## Entity 생명주기
 
 - 비영속
 - 영속
 - 준영속
 - 삭제
 
-### Spring Data JPA
+## Spring Data JPA
 
 Spring Data JPA 는 JPA 에 특화된 기능 제공
 
